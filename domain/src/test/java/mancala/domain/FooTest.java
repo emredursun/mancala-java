@@ -16,7 +16,7 @@ public class FooTest {
     // a small main method - you need to setup everything
     // and you can write any arbitrary Java code in it.
     @Test 
-    public void TheAnswerToLifeTheUniverseAndEverythingIs42() {
+    public void theAnswerToLifeTheUniverseAndEverythingIs42() {
         Foo foo = new Foo();
         assertEquals(42, foo.theAnswerToLifeTheUniverseAndEverything());
     }
