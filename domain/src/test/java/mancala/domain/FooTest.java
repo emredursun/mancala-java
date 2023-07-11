@@ -18,6 +18,6 @@ public class FooTest {
     @Test 
     public void theAnswerToLifeTheUniverseAndEverythingIs42() {
         Foo foo = new Foo();
-        assertEquals(42, foo.theAnswerToLifeTheUniverseAndEverything());
+        assertEquals(41, foo.theAnswerToLifeTheUniverseAndEverything());
     }
 }

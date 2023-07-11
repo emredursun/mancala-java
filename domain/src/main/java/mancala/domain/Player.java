@@ -16,7 +16,7 @@ import java.util.List;
             }
         }
 
-        public int getScore() {
+        public int getStonesPerKalaha() {
             return kalaha.getStonesPerKalaha();
         }
 
