@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="fe70584a-7709-48df-bdf0-cd13d52c8c05" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Kalaha.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Kalaha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/MancalaGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/MancalaGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MancalaGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MancalaGameTest.java" afterDir="false" />
     </list>
+=======
+    <list default="true" id="b15131ca-50ef-4ac9-a89d-ea048dc4f4cc" name="Changes" comment="" />
+>>>>>>> 9bcb214f571a60a1b99006759b5f549ddee114f6
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +28,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+<<<<<<< HEAD
+=======
+        <option value="Interface" />
+>>>>>>> 9bcb214f571a60a1b99006759b5f549ddee114f6
       </list>
     </option>
   </component>
@@ -33,11 +41,19 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="2S6A1DZH1mMFHSKVkUaOpWllFCD" />
+=======
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2SOQVjSckdyOSF35PfjTEDc9K8j" />
+>>>>>>> 9bcb214f571a60a1b99006759b5f549ddee114f6
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -160,6 +176,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688456439693</updated>
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "mainline",
+    "last_opened_file_path": "D:/SOGYO/git-github-project"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b15131ca-50ef-4ac9-a89d-ea048dc4f4cc" name="Changes" comment="" />
+      <created>1689015173811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689015173811</updated>
+>>>>>>> 9bcb214f571a60a1b99006759b5f549ddee114f6
     </task>
     <servers />
   </component>
