@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
     class Player {
+
         private final Kalaha kalaha;
         private final List<Bowl> bowls;
         private StoneCollectors activeElement;
@@ -16,7 +17,11 @@ import java.util.List;
             }
         }
 
-        public int getStonesPerKalaha() {
+        public Kalaha getKalaha() {
+            return kalaha;
+        }
+
+        public int getScore() {
             return kalaha.getStonesPerKalaha();
         }
 
@@ -24,7 +29,7 @@ import java.util.List;
             return bowls;
         }
 
-        public int getNumberOfStones() {
+        public int getTotalNumberOfStonesInAllBowls() {
             int numberOfStonesInAllBowls = 0;
             for (Bowl bowl : bowls) {
                 numberOfStonesInAllBowls += bowl.getStonesPerBowl();
@@ -33,7 +38,7 @@ import java.util.List;
         }
 
         public boolean hasStonesLeft() {
-            return getNumberOfStones() > 0;
+            return getTotalNumberOfStonesInAllBowls() > 0;
         }
 
         public StoneCollectors makeMove(int selectedBowlNumber, List<Bowl> opponentBowls) {
@@ -42,11 +47,11 @@ import java.util.List;
             stoneCollectors.addAll(opponentBowls);
 
             Bowl selectedBowl = bowls.get(selectedBowlNumber - 1);
-            int numberOfStonesSelectedCup = selectedBowl.getStonesPerBowl();
+            int numberOfStonesSelectedBowl = selectedBowl.getStonesPerBowl();
 
             selectedBowl.emptyBowl();
 
-            for (int i = selectedBowlNumber; i < selectedBowlNumber + numberOfStonesSelectedCup; i++) {
+            for (int i = selectedBowlNumber; i < selectedBowlNumber + numberOfStonesSelectedBowl; i++) {
                 activeElement = stoneCollectors.get(i % stoneCollectors.size());
                 activeElement.addOneStone();
             }

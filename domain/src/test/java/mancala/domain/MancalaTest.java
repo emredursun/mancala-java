@@ -57,7 +57,7 @@ public class MancalaTest {
         assertEquals(5, activePlayer.getBowls().get(4).getStonesPerBowl());
         assertEquals(5, activePlayer.getBowls().get(5).getStonesPerBowl());
 
-        assertEquals(0, playerOne.getStonesPerKalaha());
+        assertEquals(0, playerOne.getScore());
 
         // The active player switch to another player
         assertEquals(playerTwo, mancalaGame.getActivePlayer());
@@ -79,7 +79,7 @@ public class MancalaTest {
         assertEquals(5, activePlayer.getBowls().get(4).getStonesPerBowl());
         assertEquals(5, activePlayer.getBowls().get(5).getStonesPerBowl());
 
-        assertEquals(1, playerOne.getStonesPerKalaha());
+        assertEquals(1, playerOne.getScore());
 
         assertEquals(playerOne, mancalaGame.getActivePlayer());
     }
@@ -98,7 +98,7 @@ public class MancalaTest {
         assertEquals(4, playerOne.getBowls().get(4).getStonesPerBowl());
         assertEquals(0, playerOne.getBowls().get(5).getStonesPerBowl());
 
-        assertEquals(1, playerOne.getStonesPerKalaha());
+        assertEquals(1, playerOne.getScore());
 
         // PlayerTwo Board
         assertEquals(5, playerTwo.getBowls().get(0).getStonesPerBowl());
@@ -108,7 +108,7 @@ public class MancalaTest {
         assertEquals(4, playerTwo.getBowls().get(4).getStonesPerBowl());
         assertEquals(4, playerTwo.getBowls().get(5).getStonesPerBowl());
 
-        assertEquals(0, playerTwo.getStonesPerKalaha());
+        assertEquals(0, playerTwo.getScore());
 
         // PlayerOne switches to PlayerTwo and PlayerTwo makes a move with his bowl 2 to end in his kalaha
         assertEquals(playerTwo, mancalaGame.getActivePlayer());
@@ -122,7 +122,7 @@ public class MancalaTest {
         assertEquals(5, playerTwo.getBowls().get(4).getStonesPerBowl());
         assertEquals(5, playerTwo.getBowls().get(5).getStonesPerBowl());
 
-        assertEquals(1, playerTwo.getStonesPerKalaha());
+        assertEquals(1, playerTwo.getScore());
 
         // PlayerTwo is still the active player
         activePlayer = playerTwo;
@@ -154,8 +154,8 @@ public class MancalaTest {
         assertFalse(playerOne.hasStonesLeft());
 
 
-        int playerOneScore = playerOne.getStonesPerKalaha();
-        int playerTwoScore = playerTwo.getStonesPerKalaha();
+        int playerOneScore = playerOne.getScore();
+        int playerTwoScore = playerTwo.getScore();
         String formattedString = String.format("playerOne Score: %s \nplayerTwo Score: %s", playerOneScore, playerTwoScore);
         System.out.println(formattedString);
 

@@ -30,9 +30,9 @@ public class Mancala {
     public Player getWinner() {
         if (!isGameEnded()) {
             return null;
-        } else if (playerOne.getStonesPerKalaha() > playerTwo.getStonesPerKalaha()) {
+        } else if (playerOne.getScore() > playerTwo.getScore()) {
             return playerOne;
-        } else if (playerTwo.getStonesPerKalaha() > playerOne.getStonesPerKalaha()) {
+        } else if (playerTwo.getScore() > playerOne.getScore()) {
             return playerTwo;
         } else {
             return null;

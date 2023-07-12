@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb8c696-5f6e-4851-8437-cb0b0402d7df" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Bowl.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Bowl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Kalaha.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Kalaha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Mancala.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Mancala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/StoneCollectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/StoneCollectors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MancalaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MancalaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/PlayerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +36,96 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.PlayerTest.testStoneDistributionAfterPlayerMove">
+    <configuration name="MancalaTest.testIfActivePlayerIsNotSwitchedWhenMoveEndsInKalaha" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mancala.domain.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mancala.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mancala.domain" />
+      <option name="MAIN_CLASS_NAME" value="mancala.domain.MancalaTest" />
+      <option name="METHOD_NAME" value="testIfActivePlayerIsNotSwitchedWhenMoveEndsInKalaha" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mancala.domain.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mancala.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mancala.domain" />
+      <option name="MAIN_CLASS_NAME" value="mancala.domain.PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.testIfHasNoStonesLeftMethodsReturnTrueWhenAPlayerHasStillStones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mancala.domain.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mancala.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mancala.domain" />
+      <option name="MAIN_CLASS_NAME" value="mancala.domain.PlayerTest" />
+      <option name="METHOD_NAME" value="testIfHasNoStonesLeftMethodsReturnTrueWhenAPlayerHasStillStones" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.testIfTheBowlIsEmptyAfterAPlayerMakesMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mancala.domain.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mancala.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mancala.domain" />
+      <option name="MAIN_CLASS_NAME" value="mancala.domain.PlayerTest" />
+      <option name="METHOD_NAME" value="testIfTheBowlIsEmptyAfterAPlayerMakesMove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.testStoneDistributionAfterPlayerMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mancala.domain.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mancala.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mancala.domain" />
+      <option name="MAIN_CLASS_NAME" value="mancala.domain.PlayerTest" />
+      <option name="METHOD_NAME" value="testStoneDistributionAfterPlayerMove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PlayerTest.testStoneDistributionAfterPlayerMove" />
+        <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="JUnit.MancalaTest.testIfActivePlayerIsNotSwitchedWhenMoveEndsInKalaha" />
+        <item itemvalue="JUnit.PlayerTest.testIfTheBowlIsEmptyAfterAPlayerMakesMove" />
+        <item itemvalue="JUnit.PlayerTest.testIfHasNoStonesLeftMethodsReturnTrueWhenAPlayerHasStillStones" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

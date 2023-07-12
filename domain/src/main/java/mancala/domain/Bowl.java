@@ -20,4 +20,9 @@ class Bowl implements StoneCollectors {
     public void addOneStone() {
         currentNumberOfStonesInABowl += 1;
     }
+
+    @Override
+    public void addStones(int count) {
+        currentNumberOfStonesInABowl += count;
+    }
 }

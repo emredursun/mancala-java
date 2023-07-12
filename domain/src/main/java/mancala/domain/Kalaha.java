@@ -11,4 +11,9 @@ class Kalaha implements StoneCollectors {
     public void addOneStone() {
         currentNumberOfStonesInAKalaha += 1;
     }
+
+    @Override
+    public void addStones(int count) {
+        currentNumberOfStonesInAKalaha += count;
+    }
 }
