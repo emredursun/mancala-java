@@ -14,35 +14,35 @@ public class MancalaTest {
 
 
     @Test
-    public void CheckIfTwoPlayersAreInitialized (){
+    public void testIfPlayersAreInitialized (){
         assertEquals(playerOne, mancalaGame.getPlayerOne());
         assertEquals(playerTwo, mancalaGame.getPlayerTwo());
     }
 
     @Test
-    public void CheckIfGameIsNotEnded(){
+    public void testIfGameNotEnded(){
             assertFalse(mancalaGame.isGameEnded());
     }
 
     @Test
-    public void WhenAPlayerHasNoStonesLeftAGameEnds(){
+    public void testIfGameEndsWhenPlayerHasNoStonesLeft(){
         mancalaGame.getPlayerOne().getBowls().forEach(Bowl::emptyBowl);
         assertTrue(mancalaGame.isGameEnded());
     }
 
     @Test
-    public void CheckIfPlayerOneIsActivePlayerWhenGameStarts(){
+    public void testIfPlayerOneIsActivePlayerWhenGameStarts(){
         assertEquals(activePlayer, mancalaGame.getActivePlayer());
     }
 
     @Test
-    public void WhenATurnEndsThePlayerIsSwitched(){
+    public void testIfPlayerIsSwitchedWhenTurnEnds(){
         mancalaGame.switchPlayer();
         assertEquals(playerTwo, mancalaGame.getActivePlayer());
     }
 
     @Test
-    public void WhenAPlayerMakesMoveWithBowlTwoTheNumberOfStonesInTheFollowingBowlsChange(){
+    public void testIfNumberOfStonesInBowlsChangeAfterMove(){
         // Before making a move
         for(int i = 0; i < 6; i++){
             assertEquals(4, activePlayer.getBowls().get(i).getStonesPerBowl());
@@ -64,7 +64,7 @@ public class MancalaTest {
     }
 
     @Test
-    public void WhenAPlayerMakesMoveAndEndsInHisKalahaTheActivePlayerIsStillTheSamePlayer(){
+    public void testIfActivePlayerIsNotSwitchedWhenMoveEndsInKalaha(){
         // Before making a move
         for(int i = 0; i < 6; i++){
             assertEquals(4, activePlayer.getBowls().get(i).getStonesPerBowl());
@@ -85,7 +85,7 @@ public class MancalaTest {
     }
 
     @Test
-    public void WhenMakingAMoveWithBowlSixTheActivePlayerIsSwitchedAndPlayerTwoGetsToMakeAMove(){
+    public void testIfActivePlayerIsSwitchedWhenMoveEndsInOpponentBowl(){
 
         // PlayerOne makes a move with his bowl six
         mancalaGame.playerMove(6);
@@ -130,7 +130,7 @@ public class MancalaTest {
     }
 
     @Test
-    public void WhenAllBowlsOfAPlayerAreEmptyThenAWinnerIsDeclared(){
+    public void testIfWinnerIsDeclaredWhenAllBowlsOfAPlayerAreEmpty(){
         // Updating the number of stone as Zero in the PlayerOne's bowls
         activePlayer = playerOne;
         for(int i = 0; i < 6; i++){
