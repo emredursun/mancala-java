@@ -45,6 +45,7 @@ public class MancalaGame {
     }
 
     public void playerMove(int bowlNumber) {
+
         if (isGameEnded()) {
             return;
         }

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="ddb8c696-5f6e-4851-8437-cb0b0402d7df" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Bowl.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Bowl.java" afterDir="false" />
@@ -19,6 +20,11 @@
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Foo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MancalaGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MancalaGameTest.java" afterDir="false" />
 >>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
+=======
+    <list default="true" id="b15131ca-50ef-4ac9-a89d-ea048dc4f4cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Foo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MancalaGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MancalaGameTest.java" afterDir="false" />
+>>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +32,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -52,6 +61,9 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+>>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
+=======
 >>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,8 +72,11 @@
     <option name="stateVersion" value="1" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectId" id="2SShx3pC61MxJ9swBqFAXYGSfkg" />
 =======
+=======
+>>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -69,6 +84,9 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+<<<<<<< HEAD
+>>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
+=======
 >>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -77,6 +95,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
@@ -180,6 +199,8 @@
       <option name="presentableId" value="Default" />
       <updated>1689146133577</updated>
 =======
+=======
+>>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "mancala-java",
@@ -194,6 +215,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689015173811</updated>
+<<<<<<< HEAD
+>>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
+=======
 >>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
     </task>
     <servers />

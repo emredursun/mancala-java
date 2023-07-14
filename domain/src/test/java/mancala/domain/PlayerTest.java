@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+
 public class PlayerTest {
     private Player player;
     private Kalaha kalaha;
@@ -20,7 +21,7 @@ public class PlayerTest {
     }
 
     @Test
-    public void testGetCups() {
+    public void testGetBowls() {
         Assertions.assertEquals(6, player.getBowls().size());
     }
 

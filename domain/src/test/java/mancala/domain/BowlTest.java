@@ -17,5 +17,4 @@ public class BowlTest {
         Assertions.assertEquals(4, bowl.getStones());
     }
 
-
 }

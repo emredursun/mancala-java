@@ -38,6 +38,7 @@ public class Player {
     }
 
     public StoneCollector makeMove(int selectedBowlNumber, List<Bowl> opponentBowls) {
+
         List<StoneCollector> stoneCollectors = new ArrayList<>(bowls);
         stoneCollectors.add(kalaha);
         stoneCollectors.addAll(opponentBowls);
@@ -49,6 +50,7 @@ public class Player {
 
         StoneCollector lastElement = null;
         for (int i = selectedBowlNumber; i < selectedBowlNumber + numberOfStonesSelectedBowl; i++) {
+
             int index = i % stoneCollectors.size();
             StoneCollector collector = stoneCollectors.get(index);
             collector.addStone();

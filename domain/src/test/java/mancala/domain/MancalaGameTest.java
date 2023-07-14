@@ -1,9 +1,11 @@
 package mancala.domain;
 
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 
 public class MancalaGameTest {
     private MancalaGame mancalaGame;
@@ -30,13 +32,13 @@ public class MancalaGameTest {
     }
 
     @Test
-    public void testIsGameEnded() {
-        assertFalse(mancalaGame.isGameEnded());
+    public void testGetActivePlayer() {
+        assertEquals(playerOne, mancalaGame.getActivePlayer());
     }
 
     @Test
-    public void testIfPlayerOneIsActivePlayerWhenGameStarts(){
-        assertEquals(playerOne, mancalaGame.getActivePlayer());
+    public void testIsGameEnded() {
+        assertFalse(mancalaGame.isGameEnded());
     }
 
     @Test
@@ -55,8 +57,6 @@ public class MancalaGameTest {
         mancalaGame.getPlayerOne().getBowls().forEach(Bowl::empty);
         assertTrue(mancalaGame.isGameEnded());
     }
-
-
 
     @Test
     public void testIfPlayerIsSwitchedWhenTurnEnds(){
@@ -177,5 +177,6 @@ public class MancalaGameTest {
 
         // Declare who is winner
         assertEquals(playerOne, mancalaGame.getWinner());
+        assertTrue(mancalaGame.isGameEnded());
     }
 }
