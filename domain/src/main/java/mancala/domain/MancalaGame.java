@@ -1,11 +1,11 @@
 package mancala.domain;
 
-public class Mancala {
+public class MancalaGame {
     private final Player playerOne;
     private final Player playerTwo;
     private Player activePlayer;
 
-    public Mancala(Player playerOne, Player playerTwo) {
+    public MancalaGame(Player playerOne, Player playerTwo) {
         this.playerOne = playerOne;
         this.playerTwo = playerTwo;
         this.activePlayer = playerOne;
@@ -45,9 +45,11 @@ public class Mancala {
     }
 
     public void playerMove(int bowlNumber) {
-        getWinner();
+        if (isGameEnded()) {
+            return;
+        }
 
-        StoneCollectors activeElement = getActivePlayer().makeMove(bowlNumber, switchPlayer().getBowls());
+        StoneCollector activeElement = getActivePlayer().makeMove(bowlNumber, switchPlayer().getBowls());
 
         if (activeElement instanceof Kalaha) {
             switchPlayer();

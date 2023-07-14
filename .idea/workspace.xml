@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="ddb8c696-5f6e-4851-8437-cb0b0402d7df" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Bowl.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Bowl.java" afterDir="false" />
@@ -13,19 +14,62 @@
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/StoneCollectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/StoneCollectors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MancalaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MancalaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/PlayerTest.java" afterDir="false" />
+=======
+    <list default="true" id="b15131ca-50ef-4ac9-a89d-ea048dc4f4cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Foo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MancalaGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MancalaGameTest.java" afterDir="false" />
+>>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+>>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="2SShx3pC61MxJ9swBqFAXYGSfkg" />
+=======
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2SOQVjSckdyOSF35PfjTEDc9K8j" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+>>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,6 +77,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
+<<<<<<< HEAD
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
@@ -134,6 +179,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689146133577</updated>
+=======
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "mancala-java",
+    "last_opened_file_path": "D:/SOGYO/git-github-project"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b15131ca-50ef-4ac9-a89d-ea048dc4f4cc" name="Changes" comment="" />
+      <created>1689015173811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689015173811</updated>
+>>>>>>> 23397010117044586e3e1f1f90846b7a56a7da67
     </task>
     <servers />
   </component>

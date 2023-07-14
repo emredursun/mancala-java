@@ -1,19 +1,18 @@
 package mancala.domain;
 
-class Kalaha implements StoneCollectors {
-    private int currentNumberOfStonesInAKalaha;
 
-    public int getStonesPerKalaha() {
-        return currentNumberOfStonesInAKalaha;
+public class Kalaha implements StoneCollector {
+    private int stones;
+
+    public int getStones() {
+        return stones;
     }
 
-    @Override
-    public void addOneStone() {
-        currentNumberOfStonesInAKalaha += 1;
+    public void addStone() {
+        stones++;
     }
 
-    @Override
     public void addStones(int count) {
-        currentNumberOfStonesInAKalaha += count;
+        stones += count;
     }
 }

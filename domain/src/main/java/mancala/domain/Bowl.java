@@ -1,28 +1,21 @@
 package mancala.domain;
 
-
-class Bowl implements StoneCollectors {
-    private int currentNumberOfStonesInABowl;
+public class Bowl implements StoneCollector {
+    private int stones;
 
     public Bowl() {
-        currentNumberOfStonesInABowl = 4;
+        this.stones = 4;
     }
 
-    public int getStonesPerBowl() {
-        return currentNumberOfStonesInABowl;
+    public int getStones() {
+        return stones;
     }
 
-    public void emptyBowl() {
-        currentNumberOfStonesInABowl = 0;
+    public void empty() {
+        stones = 0;
     }
 
-    @Override
-    public void addOneStone() {
-        currentNumberOfStonesInABowl += 1;
-    }
-
-    @Override
-    public void addStones(int count) {
-        currentNumberOfStonesInABowl += count;
+    public void addStone() {
+        stones++;
     }
 }
